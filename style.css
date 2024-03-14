@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(181, 186, 190);
+    margin: 0; 
+    padding: 0; 
+}
+
+.container {
+    width: 90%; 
+    margin: 40px auto; 
+    background-color: white;
+    display: grid;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box; 
+    padding: 0px;
+    border-radius: 6px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.849);
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.input-field {
+    text-align: left;
+    width: 90%;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    width: 15%;
+    height: 40px;
+    background-color: rgb(233, 39, 39);
+    text-decoration: none;
+    border-style: none;
+    font-size: large;
+    color: wheat;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: rgb(214, 33, 33);
+}
+
+#firstNumber, #secondNumber {
+    width: 35%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.results {
+    display: inline-block;
+    margin-top: 15px;
+    width: 70px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.reset {
+    top: 20px;
+    left: 20px;
+    background-color: green;
+}
+
+.reset:hover {
+    background-color: rgb(11, 97, 11);
+}
+
+/* @media only screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    h1{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+    h1{
+        font-size: 20px;
+    }
+} */
+@media (max-width: 1200px) {
+    /* html {
+        font-size: 35px;
+    }
+    h1{
+        font-size: 15px;
+    } */
+}
+@media (max-width: 991px) {
+    .container{
+        width: 70%;
+
+    }
+    html {
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    button{
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 80%;
+
+    }
+    html {
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    button{
+        font-size: 10px;
+        font-weight: 800;
+        margin: 0px;
+
+    }
+}
+@media (max-width: 550px){
+    button{
+        font-size: 10   px;
+        width: 15%;
+        display: inline-block;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .container{
+        width: 80%;
+        margin-top: 150px;
+
+    }
+    html {
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+
+    }
+    button{
+        font-size: 15px;
+        width: 37%;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    .reset{
+        width: 50%;
+        margin-left: 70px;
+    }
+
+}
+
